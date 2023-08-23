@@ -44,7 +44,7 @@ def main():
             st.subheader("Podcast Guest")
             try:
               st.write(podcast_info['podcast_guest'])
-            excpet:
+            except:
             st.write("No info")
 
 
@@ -96,7 +96,7 @@ def main():
             st.subheader("Podcast Guest")
             try:
               st.write(podcast_info['podcast_guest'])
-            excpet:
+            except:
               st.write("No info")
 
         with col4:
