@@ -50,10 +50,8 @@ def main():
 
         with col4:
             st.subheader("Podcast Guest Details")
-            try:
-              st.write(podcast_info['podcast_guest'])
-            except:
-                st.write("No info")
+            st.write("No info")
+            
             
 
         # Display the five key moments
@@ -105,10 +103,7 @@ def main():
 
         with col4:
             st.subheader("Podcast Guest Details")
-            try:
-              st.write(podcast_info['podcast_guest'])
-            except:
-                st.write("No info")
+            st.write("No info")
             
 
         # Display the five key moments
