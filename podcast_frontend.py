@@ -45,7 +45,7 @@ def main():
             try:
               st.write(podcast_info['podcast_guest'])
             except:
-            st.write("No info")
+                st.write("No info")
 
 
         with col4:
